@@ -7,6 +7,8 @@ public class BubbleSort {
     int i,j;
     String temp;
 
+    System.out.println("Input::".concat(Arrays.toString(list)));
+
     for(i = 0; i < list.length; i++) {
 
       // System.out.println("i::" + i);
