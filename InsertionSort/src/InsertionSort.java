@@ -28,7 +28,7 @@ public class InsertionSort {
       }
 
       list[position] = insertValue;
-      
+
       System.out.println("Partial Result::".concat(Arrays.toString(list)));
     }
 

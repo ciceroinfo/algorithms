@@ -23,7 +23,7 @@ jar cfve app.jar %currentfolder% -C classes .
 echo.
 
 echo ## Running jar file ##
-java -cp classes -jar app.jar 6 5 3 1 8 7 2 4
+java -cp classes -jar app.jar 6 5 3 1 8 7 2 4 13
 echo.
 
 del app.jar
