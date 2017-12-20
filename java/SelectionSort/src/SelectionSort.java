@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class InsertionSort {
+public class SelectionSort {
 
   public static void main(String[] list) {
 
@@ -19,19 +19,19 @@ public class InsertionSort {
 
       while(position > 0 && Integer.parseInt(list[position -1]) > Integer.parseInt(insertValue)) {
 
-        System.out.println("position::" + position);
-        System.out.println("swap::[" + list[position -1] + "-->, <--" + insertValue + "]");
+        System.out.println("swap::[" + list[position -1] + " --> " + list[position] + "]");
 
         list[position] = list[position -1];
 
         position--;
       }
 
+      System.out.println("swap::[" + list[position] + " <-- " + insertValue + "]");
       list[position] = insertValue;
 
-      System.out.println("Partial Result::".concat(Arrays.toString(list)));
+      System.out.println("Partial::".concat(Arrays.toString(list)));
     }
 
-    System.out.println("Result::".concat(Arrays.toString(list)));
+    System.out.println("Output::".concat(Arrays.toString(list)));
   }
 }
