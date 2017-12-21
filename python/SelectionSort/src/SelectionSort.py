@@ -23,7 +23,7 @@ def selectionSort(list):
         # the first element
         list[i], list[minIndex] = list[minIndex], list[i]
 
-        print "swap::[", list[minIndex], " <--> ", list[i], "] index::[", i, " <--> ", minIndex, "]"
+        print "swap::[", list[minIndex], " <--> ", list[i], "] position::[", i, " <--> ", minIndex, "]"
         print "Partial list::", list
 
 # Driver code to test above
